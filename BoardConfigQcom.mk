@@ -220,3 +220,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys/system/bt/conf \
     vendor/qcom/opensource/commonsys/system/bt/main
 endif #TARGET_USE_QTI_BT_STACK
+
+# Add wlan to PRODUCT_SOONG_NAMESPACES
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/wlan
